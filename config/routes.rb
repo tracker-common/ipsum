@@ -1,4 +1,6 @@
 Ipsum::Application.routes.draw do
+  resources :settings
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
